@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 :root {
     --one-light: #f2e9e4;
     --two-pink: #c9ada7;
@@ -5,6 +14,7 @@
     --four-blue: #4a4e69;
     --five-dark: #22223b;
 }
+
 .bg-one-light {
     background-color: var(--one-light);
 }
