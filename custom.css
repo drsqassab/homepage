@@ -1,0 +1,34 @@
+:root {
+    --one-light: #f2e9e4;
+    --two-pink: #c9ada7;
+    --three-purple: #9a8c98;
+    --four-blue: #4a4e69;
+    --five-dark: #22223b;
+}
+.bg-one-light {
+    background-color: var(--one-light);
+}
+
+.bg-two-pink {
+    background-color: var(--two-pink);
+}
+
+.bg-three-purple {
+    background-color: var(--three-purple);
+}
+
+.bg-four-blue {
+    background-color: var(--four-blue);
+}
+
+.bg-five-dark {
+    background-color: var(--five-dark);
+}
+
+.text-one-light {
+    color: var(--one-light);
+}
+
+.text-five-dark {
+    color: var(--five-dark);
+}
