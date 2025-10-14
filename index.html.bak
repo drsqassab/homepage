@@ -9,39 +9,26 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body class="bg-one-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center bg-five-dark">
-        <img src="assests/logo.svg" alt="logo">
-      </div>
+  <div class="d-flex flex-column align-items-center justify-content-start bg-one-light font-mont-regular">
+    <div class="d-flex flex-row align-items-center justify-content-center w-100 bg-five-dark">
+      <img src="assests/logo.svg" alt="logo">
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center bg-four-blue">
-        <img src="assests/name-tag.svg" alt="name-tag">
-      </div>
+    <div class="d-flex flex-row align-items-center justify-content-center w-100 bg-four-blue">
+      <img src="assests/name-tag.svg" alt="nametag">
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-between p-3">
-        <a href="https://instagram.com/drsarmadqassab" target="_blank">
-          <img src="assests/btn-insta.svg" alt="instagram" class="shadow">
-        </a>
-        <a href="https://wa.me/9647505550108" target="_blank">
-          <img src="assests/btn-whats.svg" alt="whatsapp" class="shadow">
-        </a>
-        <a href="https://maps.app.goo.gl/dhyPUmFmUkadqGUdA" target="_blank">
-          <img src="assests/btn-map.svg" alt="location" class="shadow">
-        </a>
-      </div>
+    <div class="d-flex flex-row align-items-center justify-content-between w-100 p-3">
+      <a href="https://instagram.com/drsarmadqassab" target="_blank">
+        <img src="assests/btn-insta.svg" alt="instagram" class="shadow">
+      </a>
+      <a href="https://wa.me/9647505550108" target="_blank">
+        <img src="assests/btn-whats.svg" alt="whatsapp" class="shadow">
+      </a>
+      <a href="https://maps.app.goo.gl/dhyPUmFmUkadqGUdA" target="_blank">
+        <img src="assests/btn-map.svg" alt="location" class="shadow">
+      </a>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center">
-              <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="d-flex flex-row align-items-center justify-content-center w-100 p-3">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
@@ -70,8 +57,6 @@
         <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
           <span class="carousel-control-next-icon"></span>
         </button>
-      </div>
-    </div>
       </div>
     </div>
   </div>
